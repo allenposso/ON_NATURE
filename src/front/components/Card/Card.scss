@@ -65,6 +65,7 @@ $breakpoint-med: 1360px;
     padding: 5%;
     float: none;
   }
+  
   @include screen(med-small) {
     height: 40%;
     width: 90%;

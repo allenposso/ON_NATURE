@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "start-fox": "start npm run start && start npm run webpacks",
+    "start-fox": "start npm run dev && start npm run webpacks",
     "webpacks": "webpack --mode development --watch",
     "webpack": "webpack --mode development"
   },

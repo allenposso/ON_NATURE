@@ -14,17 +14,22 @@ class App extends Component {
         this.handler = this.handler.bind(this);
         this.listaMenu = constantes.menuItems.map(item => <Menu key={item.index} handler={(item) => this.handler(item)} index={item.index} />);
         this.state = {
-            actualTab: this.getMenuActual(0),
-            tarjetas:[]
+            actualTab: "",
+            tarjetas: [],
+            categorias:[]
         };
         callServices.consultarTarjetas(this.state);
+        callServices.consultarCategorias(this.state);
+        this.state.actualTab = this.getMenuActual(0);
     }
 
     getMenuActual(index) {
         var list = [];
-        var lista= [];
+        var lista = this.state.categorias;
+        var cont = 0;
         lista.forEach(item => {
-           list.push(<Card key="1"  nombre={item.nombre} imgen={item.imagen}/>);
+            list.push(<Card key={cont} title={item.title} image={item.imege} type="menu"/>);
+            cont++;
         });
         switch (index) {
             case 0: return <Card />
