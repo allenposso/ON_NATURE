@@ -1,0 +1,157 @@
+$breakpoint-small: 600px;
+$breakpoint-med-small: 960px;
+$breakpoint-med: 1175px;
+
+@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
+  @if $size == "small" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-small) {
+      @content;
+    }
+  } @else if $size == "med-small" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med-small) {
+      @content;
+    }
+  } @else if $size == "med" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med) {
+      @content;
+    }
+  } @else if $size == "large" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med) {
+      @content;
+    }
+  } @else if $size == "custom" {
+    $invid: $type + -width;
+    @media screen and ($invid: $pixels + px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin on-scales($item-count, $item-size) {
+  border-radius: 50%;
+  list-style: none;
+
+  > * {
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: -($item-size / 2);
+    width: $item-size;
+    height: $item-size;
+    padding: 12%;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        @if ($i % 2 == 0) {
+          transform: translatex($item-size + 1);
+        }
+      }
+    }
+  }
+}
+
+@mixin on-menu($item-count, $item-size) {
+  border-radius: 50%;
+  list-style: none;
+  > * {
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin: -($item-size / 2);
+    width: $item-size;
+    height: $item-size;
+    padding: 12%;
+
+    @for $i from 1 through $item-count {
+      &:nth-of-type(#{$i}) {
+        margin-bottom: $item-size/2;
+      }
+    }
+  }
+}
+// Using the mixin
+.responsive {
+  @include screen(large) {
+    width: 20%;
+  }
+  @include screen(med) {
+    width: 40%;
+  }
+  @include screen(med-small) {
+    width: 60%;
+  }
+  @include screen(small) {
+    width: 80%;
+  }
+  @include screen(custom, max, 400) {
+    width: 100%;
+  }
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.cards {
+  height: 90%;
+  width: 75%;
+  float: left;
+  padding-left: 20%;
+  padding-top: 5%;
+  z-index: 0;
+  position: fixed;
+  flex-direction: row;
+}
+
+.menus {
+  height: 90%;
+  width: 13%;
+  padding-left: 5%;
+  padding-top: 4%;
+  float: left;
+  @include on-scales($item-count: 7, $item-size: 5rem);
+}
+
+.menus2 {
+  height: 90%;
+  width: 13%;
+  padding-left: 7.5%;
+  padding-top: 8%;
+  z-index: 1;
+  position: fixed;
+  float: left;
+  @include on-menu($item-count: 4, $item-size: 5rem);
+}
+
+.imag {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+}
+
+.titan {
+  height: 100% !important;
+  width: 100% !important;
+  position: absolute;
+  flex-direction: row;
+}
+
+

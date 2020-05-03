@@ -1,0 +1,112 @@
+$breakpoint-small: 600px;
+$breakpoint-med-small: 960px;
+$breakpoint-med: 1360px;
+
+@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
+  @if $size == "small" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-small) {
+      @content;
+    }
+  } @else if $size == "med-small" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med-small) {
+      @content;
+    }
+  } @else if $size == "med" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med) {
+      @content;
+    }
+  } @else if $size == "large" {
+    $invid: $type + -width;
+    @media screen and ($invid: $breakpoint-med) {
+      @content;
+    }
+  } @else if $size == "custom" {
+    $invid: $type + -width;
+    @media screen and ($invid: $pixels + px) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}
+
+@mixin material-shadow($z-depth: 1, $strength: 1, $color: black) {
+  @if $z-depth == 1 {
+    box-shadow: 0 1px 3px rgba($color, $strength * 0.14), 0 1px 2px rgba($color, $strength * 0.24);
+  }
+  @if $z-depth == 2 {
+    box-shadow: 0 3px 6px rgba($color, $strength * 0.16), 0 3px 6px rgba($color, $strength * 0.23);
+  }
+  @if $z-depth == 3 {
+    box-shadow: 0 10px 20px rgba($color, $strength * 0.19), 0 6px 6px rgba($color, $strength * 0.23);
+  }
+  @if $z-depth == 4 {
+    box-shadow: 0 15px 30px rgba($color, $strength * 0.25), 0 10px 10px rgba($color, $strength * 0.22);
+  }
+  @if $z-depth == 5 {
+    box-shadow: 0 20px 40px rgba($color, $strength * 0.3), 0 15px 12px rgba($color, $strength * 0.22);
+  }
+  @if ($z-depth < 1) or ($z-depth > 5) {
+    @warn "$z-depth must be between 1 and 5";
+  }
+}
+
+.card-menu {
+  height: 85%;
+  width: 85%;
+  padding: 2%;
+  z-index: -1;
+  padding-top: 3%;
+  padding-left: 9%;
+  position: fixed;
+  float: left;
+  overflow:auto;
+  @include screen(med) {
+    height: 50%;
+    width: 90%;
+    padding: 5%;
+    float: none;
+  }
+  @include screen(med-small) {
+    height: 40%;
+    width: 90%;
+    padding: 5%;
+    float: none;
+  }
+  @include screen(small) {
+    height: 30%;
+    width: 90%;
+    padding: 5%;
+    float: none;
+  }
+}
+
+.card-in-menu {
+  background-color: rgb(251, 253, 255);
+  border-radius: 0.7rem;
+  height: 100%;
+  width: 100%;
+  @include material-shadow(5);
+}
+
+.coverImage {
+  float: right;
+  position: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 85%;
+  padding-left: 25.6%;
+}
+
+.logo {
+  width: 100%;
+  float: right !important;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/src/img/fondo2.png);
+}

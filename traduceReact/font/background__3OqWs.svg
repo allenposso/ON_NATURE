@@ -1,0 +1,2756 @@
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import React from "react";
+
+var _ref =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-27-49l-15 176 9-72z",
+  fill: "#e6f5b2",
+  stroke: "#e6f5b2"
+});
+
+var _ref2 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-27-49l-6 104 49-97z",
+  fill: "#f2fab1",
+  stroke: "#f2fab1"
+});
+
+var _ref3 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-27-49l43 7 154-2z",
+  fill: "#f0f9b1",
+  stroke: "#f0f9b1"
+});
+
+var _ref4 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-27-49l197 5 54-6z",
+  fill: "#e7f6b2",
+  stroke: "#e7f6b2"
+});
+
+var _ref5 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-27-49l251-1 245-23z",
+  fill: "#dbf1b2",
+  stroke: "#dbf1b2"
+});
+
+var _ref6 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M16-42l-49 97 73 14z",
+  fill: "#e5f5b2",
+  stroke: "#e5f5b2"
+});
+
+var _ref7 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M16-42L40 69 170-44z",
+  fill: "#e6f5b2",
+  stroke: "#e6f5b2"
+});
+
+var _ref8 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M170-44L40 69l110 8z",
+  fill: "#d6efb4",
+  stroke: "#d6efb4"
+});
+
+var _ref9 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M170-44L150 77l63-6z",
+  fill: "#cfecb4",
+  stroke: "#cfecb4"
+});
+
+var _ref10 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M170-44l43 115 11-121z",
+  fill: "#d7f0b3",
+  stroke: "#d7f0b3"
+});
+
+var _ref11 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M224-50L213 71l71-115z",
+  fill: "#d2eeb4",
+  stroke: "#d2eeb4"
+});
+
+var _ref12 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M224-50l60 6 185-29z",
+  fill: "#cfecb3",
+  stroke: "#cfecb3"
+});
+
+var _ref13 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M284-44L213 71l110-45z",
+  fill: "#c8e9b5",
+  stroke: "#c8e9b5"
+});
+
+var _ref14 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M284-44l39 70 73-46z",
+  fill: "#c8eab4",
+  stroke: "#c8eab4"
+});
+
+var _ref15 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M284-44l112 24 73-53z",
+  fill: "#c8eab4",
+  stroke: "#c8eab4"
+});
+
+var _ref16 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M396-20l-73 46 57 39z",
+  fill: "#bbe4b6",
+  stroke: "#bbe4b6"
+});
+
+var _ref17 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M396-20l-16 85 142 5z",
+  fill: "#afe0b7",
+  stroke: "#afe0b7"
+});
+
+var _ref18 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M396-20l126 90-53-143z",
+  fill: "#b8e3b6",
+  stroke: "#b8e3b6"
+});
+
+var _ref19 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M469-73l53 143 54-135z",
+  fill: "#b6dfb6",
+  stroke: "#b6dfb6"
+});
+
+var _ref20 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M469-73l107 8 305-15z",
+  fill: "#aed6b4",
+  stroke: "#aed6b4"
+});
+
+var _ref21 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M576-65L522 70l47-9z",
+  fill: "#a8d8b6",
+  stroke: "#a8d8b6"
+});
+
+var _ref22 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M576-65l-7 126 87-79z",
+  fill: "#abd7b6",
+  stroke: "#abd7b6"
+});
+
+var _ref23 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M576-65l80 47 95-26z",
+  fill: "#add5b5",
+  stroke: "#add5b5"
+});
+
+var _ref24 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M576-65l175 21 130-36z",
+  fill: "#a6ceb4",
+  stroke: "#a6ceb4"
+});
+
+var _ref25 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M656-18l-87 79 109-2z",
+  fill: "#9dd0b7",
+  stroke: "#9dd0b7"
+});
+
+var _ref26 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M656-18l22 77 73-103z",
+  fill: "#a1ceb5",
+  stroke: "#a1ceb5"
+});
+
+var _ref27 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M751-44L678 59l120-34z",
+  fill: "#99c9b6",
+  stroke: "#99c9b6"
+});
+
+var _ref28 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M751-44l47 69 83-105z",
+  fill: "#9ec8b4",
+  stroke: "#9ec8b4"
+});
+
+var _ref29 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M881-80L798 25l31 34z",
+  fill: "#93c2b5",
+  stroke: "#93c2b5"
+});
+
+var _ref30 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M881-80L829 59 941-75z",
+  fill: "#97c1b4",
+  stroke: "#97c1b4"
+});
+
+var _ref31 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M881-80l60 5 186 2z",
+  fill: "#8fb9b3",
+  stroke: "#8fb9b3"
+});
+
+var _ref32 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M941-75L829 59l134 20z",
+  fill: "#87bab5",
+  stroke: "#87bab5"
+});
+
+var _ref33 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M941-75l22 154 58-44z",
+  fill: "#83b5b5",
+  stroke: "#83b5b5"
+});
+
+var _ref34 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M941-75l80 110 9-47z",
+  fill: "#89b6b4",
+  stroke: "#89b6b4"
+});
+
+var _ref35 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M941-75l89 63 97-61z",
+  fill: "#8bb5b3",
+  stroke: "#8bb5b3"
+});
+
+var _ref36 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1030-12l-9 47 126 41z",
+  fill: "#76abb5",
+  stroke: "#76abb5"
+});
+
+var _ref37 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1030-12l117 88 34-88z",
+  fill: "#75a8b5",
+  stroke: "#75a8b5"
+});
+
+var _ref38 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1030-12h151l-54-61z",
+  fill: "#82adb4",
+  stroke: "#82adb4"
+});
+
+var _ref39 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1127-73l54 61 105-19z",
+  fill: "#80a7b3",
+  stroke: "#80a7b3"
+});
+
+var _ref40 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1127-73l159 42 99-15z",
+  fill: "#80a1b3",
+  stroke: "#80a1b3"
+});
+
+var _ref41 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1127-73l258 27h68z",
+  fill: "#809cb2",
+  stroke: "#809cb2"
+});
+
+var _ref42 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1181-12l-34 88 79-43z",
+  fill: "#6fa1b4",
+  stroke: "#6fa1b4"
+});
+
+var _ref43 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1181-12l45 45 60-64z",
+  fill: "#78a1b4",
+  stroke: "#78a1b4"
+});
+
+var _ref44 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1286-31l-60 64 81 28z",
+  fill: "#719bb4",
+  stroke: "#719bb4"
+});
+
+var _ref45 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1286-31l21 92 78-107z",
+  fill: "#7899b3",
+  stroke: "#7899b3"
+});
+
+var _ref46 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1385-46l-78 107 119 8z",
+  fill: "#7091b4",
+  stroke: "#7091b4"
+});
+
+var _ref47 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1385-46l41 115 27-115z",
+  fill: "#7991b3",
+  stroke: "#7991b3"
+});
+
+var _ref48 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1453-46l-27 115 55-7z",
+  fill: "#708ab3",
+  stroke: "#708ab3"
+});
+
+var _ref49 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1453-46l28 108 27 75z",
+  fill: "#6a86b4",
+  stroke: "#6a86b4"
+});
+
+var _ref50 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-33 55l-9 72 67 2z",
+  fill: "#d5efb4",
+  stroke: "#d5efb4"
+});
+
+var _ref51 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-33 55l58 74 15-60z",
+  fill: "#d6efb3",
+  stroke: "#d6efb3"
+});
+
+var _ref52 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M40 69l-15 60 126-28z",
+  fill: "#cbebb5",
+  stroke: "#cbebb5"
+});
+
+var _ref53 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M40 69l111 32-1-24z",
+  fill: "#cbebb4",
+  stroke: "#cbebb4"
+});
+
+var _ref54 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M150 77l1 24 62-30z",
+  fill: "#c4e8b5",
+  stroke: "#c4e8b5"
+});
+
+var _ref55 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M213 71l-62 30 66 35z",
+  fill: "#bce5b6",
+  stroke: "#bce5b6"
+});
+
+var _ref56 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M213 71l4 65 76 26z",
+  fill: "#b1e1b7",
+  stroke: "#b1e1b7"
+});
+
+var _ref57 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M213 71l80 91 30-136z",
+  fill: "#b6e3b6",
+  stroke: "#b6e3b6"
+});
+
+var _ref58 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M323 26l-30 136 87-97z",
+  fill: "#b0e0b7",
+  stroke: "#b0e0b7"
+});
+
+var _ref59 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M380 65l-87 97 94 7z",
+  fill: "#a1dbb8",
+  stroke: "#a1dbb8"
+});
+
+var _ref60 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M380 65l7 104 128-17z",
+  fill: "#99d8b9",
+  stroke: "#99d8b9"
+});
+
+var _ref61 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M380 65l135 87 7-82z",
+  fill: "#9dd8b8",
+  stroke: "#9dd8b8"
+});
+
+var _ref62 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M522 70l-7 82 65-22z",
+  fill: "#91d0b8",
+  stroke: "#91d0b8"
+});
+
+var _ref63 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M522 70l58 60-11-69z",
+  fill: "#97d2b8",
+  stroke: "#97d2b8"
+});
+
+var _ref64 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M569 61l11 69 90-29z",
+  fill: "#90ccb8",
+  stroke: "#90ccb8"
+});
+
+var _ref65 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M569 61l101 40 8-42z",
+  fill: "#93ccb7",
+  stroke: "#93ccb7"
+});
+
+var _ref66 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M678 59l-8 42 108 65z",
+  fill: "#84c2b8",
+  stroke: "#84c2b8"
+});
+
+var _ref67 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M678 59l100 107 20-141z",
+  fill: "#86c1b7",
+  stroke: "#86c1b7"
+});
+
+var _ref68 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M798 25l-20 141 51-107z",
+  fill: "#82bdb7",
+  stroke: "#82bdb7"
+});
+
+var _ref69 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M829 59l-51 107 53-33z",
+  fill: "#78b8b8",
+  stroke: "#78b8b8"
+});
+
+var _ref70 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M829 59l2 74h121z",
+  fill: "#75b5b7",
+  stroke: "#75b5b7"
+});
+
+var _ref71 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M829 59l123 74 11-54z",
+  fill: "#75b2b7",
+  stroke: "#75b2b7"
+});
+
+var _ref72 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M963 79l-11 54 88 18z",
+  fill: "#67a9b8",
+  stroke: "#67a9b8"
+});
+
+var _ref73 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M963 79l77 72-19-116z",
+  fill: "#6daab6",
+  stroke: "#6daab6"
+});
+
+var _ref74 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1021 35l19 116 107-75z",
+  fill: "#68a6b6",
+  stroke: "#68a6b6"
+});
+
+var _ref75 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1147 76l-107 75 67 16z",
+  fill: "#5a9fb7",
+  stroke: "#5a9fb7"
+});
+
+var _ref76 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1147 76l-40 91 114-29z",
+  fill: "#579ab7",
+  stroke: "#579ab7"
+});
+
+var _ref77 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1147 76l74 62 5-105z",
+  fill: "#629bb6",
+  stroke: "#629bb6"
+});
+
+var _ref78 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1226 33l-5 105 86-77z",
+  fill: "#6397b6",
+  stroke: "#6397b6"
+});
+
+var _ref79 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1307 61l-86 77 83 27z",
+  fill: "#5890b7",
+  stroke: "#5890b7"
+});
+
+var _ref80 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1307 61l-3 104 117-4z",
+  fill: "#568ab6",
+  stroke: "#568ab6"
+});
+
+var _ref81 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1307 61l114 100 5-92z",
+  fill: "#5e8ab5",
+  stroke: "#5e8ab5"
+});
+
+var _ref82 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1426 69l-5 92 87-24z",
+  fill: "#5881b6",
+  stroke: "#5881b6"
+});
+
+var _ref83 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1426 69l82 68-27-75z",
+  fill: "#6083b5",
+  stroke: "#6083b5"
+});
+
+var _ref84 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-42 127l-24 359 23-241z",
+  fill: "#afd9b5",
+  stroke: "#afd9b5"
+});
+
+var _ref85 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-42 127l-1 118 68-116z",
+  fill: "#c5e9b5",
+  stroke: "#c5e9b5"
+});
+
+var _ref86 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M25 129l-68 116 123 7z",
+  fill: "#b6e3b6",
+  stroke: "#b6e3b6"
+});
+
+var _ref87 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M25 129l55 123 71-151z",
+  fill: "#bae4b6",
+  stroke: "#bae4b6"
+});
+
+var _ref88 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M151 101L80 252l32 7z",
+  fill: "#acdfb7",
+  stroke: "#acdfb7"
+});
+
+var _ref89 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M151 101l-39 158 105-123z",
+  fill: "#b0e0b7",
+  stroke: "#b0e0b7"
+});
+
+var _ref90 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M217 136L112 259l122-31z",
+  fill: "#a2dbb8",
+  stroke: "#a2dbb8"
+});
+
+var _ref91 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M217 136l17 92 59-66z",
+  fill: "#a3dbb8",
+  stroke: "#a3dbb8"
+});
+
+var _ref92 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M293 162l-59 66 65-17z",
+  fill: "#99d7b9",
+  stroke: "#99d7b9"
+});
+
+var _ref93 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M293 162l6 49 71-6z",
+  fill: "#96d6b9",
+  stroke: "#96d6b9"
+});
+
+var _ref94 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M293 162l77 43 17-36z",
+  fill: "#95d6b9",
+  stroke: "#95d6b9"
+});
+
+var _ref95 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M387 169l-17 36 156 41z",
+  fill: "#85d0bb",
+  stroke: "#85d0bb"
+});
+
+var _ref96 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M387 169l139 77-11-94z",
+  fill: "#84cebb",
+  stroke: "#84cebb"
+});
+
+var _ref97 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M515 152l11 94 77-41z",
+  fill: "#7bc7ba",
+  stroke: "#7bc7ba"
+});
+
+var _ref98 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M515 152l88 53-23-75z",
+  fill: "#83c9b9",
+  stroke: "#83c9b9"
+});
+
+var _ref99 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M580 130l23 75 67-104z",
+  fill: "#82c6b9",
+  stroke: "#82c6b9"
+});
+
+var _ref100 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M670 101l-67 104 106 31z",
+  fill: "#76bfba",
+  stroke: "#76bfba"
+});
+
+var _ref101 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M670 101l39 135 69-70z",
+  fill: "#74bcb9",
+  stroke: "#74bcb9"
+});
+
+var _ref102 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M778 166l-69 70 79 23z",
+  fill: "#63b3ba",
+  stroke: "#63b3ba"
+});
+
+var _ref103 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M778 166l10 93 101-39z",
+  fill: "#5faeba",
+  stroke: "#5faeba"
+});
+
+var _ref104 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M778 166l111 54-58-87z",
+  fill: "#68b1b9",
+  stroke: "#68b1b9"
+});
+
+var _ref105 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M831 133l58 87 63-87z",
+  fill: "#66adb8",
+  stroke: "#66adb8"
+});
+
+var _ref106 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M952 133l-63 87 81-29z",
+  fill: "#5ca7b9",
+  stroke: "#5ca7b9"
+});
+
+var _ref107 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M952 133l18 58 70-40z",
+  fill: "#5ea6b8",
+  stroke: "#5ea6b8"
+});
+
+var _ref108 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1040 151l-70 40 97 1z",
+  fill: "#55a0b8",
+  stroke: "#55a0b8"
+});
+
+var _ref109 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1040 151l27 41 40-25z",
+  fill: "#539db8",
+  stroke: "#539db8"
+});
+
+var _ref110 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1107 167l-40 25 27 61z",
+  fill: "#4998b9",
+  stroke: "#4998b9"
+});
+
+var _ref111 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1107 167l-13 86 134-22z",
+  fill: "#4192b9",
+  stroke: "#4192b9"
+});
+
+var _ref112 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1107 167l121 64-7-93z",
+  fill: "#4993b8",
+  stroke: "#4993b8"
+});
+
+var _ref113 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1221 138l7 93 76-66z",
+  fill: "#4a8db8",
+  stroke: "#4a8db8"
+});
+
+var _ref114 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1304 165l-76 66 72 22z",
+  fill: "#4087b9",
+  stroke: "#4087b9"
+});
+
+var _ref115 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1304 165l-4 88 97-34z",
+  fill: "#4183b8",
+  stroke: "#4183b8"
+});
+
+var _ref116 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1304 165l93 54 24-58z",
+  fill: "#4982b7",
+  stroke: "#4982b7"
+});
+
+var _ref117 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1421 161l-24 58 88 31z",
+  fill: "#427ab8",
+  stroke: "#427ab8"
+});
+
+var _ref118 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1421 161l64 89 23-113z",
+  fill: "#487ab7",
+  stroke: "#487ab7"
+});
+
+var _ref119 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1508 137l-23 113v76z",
+  fill: "#3c71b8",
+  stroke: "#3c71b8"
+});
+
+var _ref120 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1508 137l-23 189 14 161z",
+  fill: "#2d62b7",
+  stroke: "#2d62b7"
+});
+
+var _ref121 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1508 137l-9 350 12 70z",
+  fill: "#1e53b7",
+  stroke: "#1e53b7"
+});
+
+var _ref122 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-43 245l-23 241 50-167z",
+  fill: "#a2cdb5",
+  stroke: "#a2cdb5"
+});
+
+var _ref123 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-43 245l27 74 52-19z",
+  fill: "#aad6b6",
+  stroke: "#aad6b6"
+});
+
+var _ref124 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-43 245l79 55 44-48z",
+  fill: "#aad9b6",
+  stroke: "#aad9b6"
+});
+
+var _ref125 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M80 252l-44 48 76-41z",
+  fill: "#a3d6b7",
+  stroke: "#a3d6b7"
+});
+
+var _ref126 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M112 259l-76 41 91 46z",
+  fill: "#9bcfb7",
+  stroke: "#9bcfb7"
+});
+
+var _ref127 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M112 259l15 87 122-35z",
+  fill: "#92cbb8",
+  stroke: "#92cbb8"
+});
+
+var _ref128 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M112 259l137 52-15-83z",
+  fill: "#95d0b8",
+  stroke: "#95d0b8"
+});
+
+var _ref129 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M234 228l15 83 50-100z",
+  fill: "#90d0b9",
+  stroke: "#90d0b9"
+});
+
+var _ref130 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M299 211l-50 100 52 25z",
+  fill: "#87c9b9",
+  stroke: "#87c9b9"
+});
+
+var _ref131 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M299 211l2 125 80-7z",
+  fill: "#80c6b9",
+  stroke: "#80c6b9"
+});
+
+var _ref132 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M299 211l82 118-11-124z",
+  fill: "#86cdba",
+  stroke: "#86cdba"
+});
+
+var _ref133 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M370 205l11 124 96-25z",
+  fill: "#79c4ba",
+  stroke: "#79c4ba"
+});
+
+var _ref134 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M370 205l107 99 49-58z",
+  fill: "#79c7bb",
+  stroke: "#79c7bb"
+});
+
+var _ref135 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M526 246l-49 58 135-23z",
+  fill: "#6cbbba",
+  stroke: "#6cbbba"
+});
+
+var _ref136 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M526 246l86 35-9-76z",
+  fill: "#6fbebb",
+  stroke: "#6fbebb"
+});
+
+var _ref137 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M603 205l9 76 97-45z",
+  fill: "#6ab9bb",
+  stroke: "#6ab9bb"
+});
+
+var _ref138 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M709 236l-97 45 72 67z",
+  fill: "#5eaeba",
+  stroke: "#5eaeba"
+});
+
+var _ref139 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M709 236l-25 112 108-63z",
+  fill: "#58a9ba",
+  stroke: "#58a9ba"
+});
+
+var _ref140 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M709 236l83 49-4-26z",
+  fill: "#5babba",
+  stroke: "#5babba"
+});
+
+var _ref141 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M788 259l4 26 97-65z",
+  fill: "#57a7ba",
+  stroke: "#57a7ba"
+});
+
+var _ref142 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M889 220l-97 65 91 43z",
+  fill: "#4fa0b9",
+  stroke: "#4fa0b9"
+});
+
+var _ref143 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M889 220l-6 108 47 17z",
+  fill: "#4799b9",
+  stroke: "#4799b9"
+});
+
+var _ref144 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M889 220l41 125 40-154z",
+  fill: "#4e9eba",
+  stroke: "#4e9eba"
+});
+
+var _ref145 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M970 191l-40 154 77 4z",
+  fill: "#4193b9",
+  stroke: "#4193b9"
+});
+
+var _ref146 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M970 191l37 158 87-96z",
+  fill: "#4294b9",
+  stroke: "#4294b9"
+});
+
+var _ref147 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M970 191l124 62-27-61z",
+  fill: "#4b9bb9",
+  stroke: "#4b9bb9"
+});
+
+var _ref148 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1094 253l-87 96 83 46z",
+  fill: "#3285b8",
+  stroke: "#3285b8"
+});
+
+var _ref149 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1094 253l-4 142 55-97z",
+  fill: "#3184b9",
+  stroke: "#3184b9"
+});
+
+var _ref150 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1094 253l51 45 83-67z",
+  fill: "#3789b8",
+  stroke: "#3789b8"
+});
+
+var _ref151 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1228 231l-83 67 55 46z",
+  fill: "#3281b8",
+  stroke: "#3281b8"
+});
+
+var _ref152 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1228 231l-28 113 73-17z",
+  fill: "#307cb8",
+  stroke: "#307cb8"
+});
+
+var _ref153 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1228 231l45 96 27-74z",
+  fill: "#367eb8",
+  stroke: "#367eb8"
+});
+
+var _ref154 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1300 253l-27 74 94-39z",
+  fill: "#3277b8",
+  stroke: "#3277b8"
+});
+
+var _ref155 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1300 253l67 35 30-69z",
+  fill: "#397ab8",
+  stroke: "#397ab8"
+});
+
+var _ref156 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1397 219l-30 69 118-38z",
+  fill: "#3974b8",
+  stroke: "#3974b8"
+});
+
+var _ref157 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1485 250l-118 38 118 38z",
+  fill: "#326bb7",
+  stroke: "#326bb7"
+});
+
+var _ref158 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-16 319l-50 167 54-113z",
+  fill: "#99c5b5",
+  stroke: "#99c5b5"
+});
+
+var _ref159 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-16 319l4 54 48-73z",
+  fill: "#a0ceb5",
+  stroke: "#a0ceb5"
+});
+
+var _ref160 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M36 300l-48 73 123 27z",
+  fill: "#96c7b6",
+  stroke: "#96c7b6"
+});
+
+var _ref161 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M36 300l75 100 16-54z",
+  fill: "#92c7b6",
+  stroke: "#92c7b6"
+});
+
+var _ref162 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M127 346l-16 54 104 37z",
+  fill: "#82bcb7",
+  stroke: "#82bcb7"
+});
+
+var _ref163 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M127 346l88 91 34-126z",
+  fill: "#82bfb7",
+  stroke: "#82bfb7"
+});
+
+var _ref164 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M249 311l-34 126 86-101z",
+  fill: "#7cbdb8",
+  stroke: "#7cbdb8"
+});
+
+var _ref165 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M301 336l-86 101 99-32z",
+  fill: "#73b6b8",
+  stroke: "#73b6b8"
+});
+
+var _ref166 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M301 336l13 69 67-76z",
+  fill: "#74bab9",
+  stroke: "#74bab9"
+});
+
+var _ref167 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M381 329l-67 76 107-32z",
+  fill: "#6cb6b9",
+  stroke: "#6cb6b9"
+});
+
+var _ref168 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M381 329l40 44 56-69z",
+  fill: "#6cb9ba",
+  stroke: "#6cb9ba"
+});
+
+var _ref169 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M477 304l-56 69 103 35z",
+  fill: "#62b2ba",
+  stroke: "#62b2ba"
+});
+
+var _ref170 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M477 304l47 104 48-3z",
+  fill: "#5babba",
+  stroke: "#5babba"
+});
+
+var _ref171 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M477 304l95 101 40-124z",
+  fill: "#61b0ba",
+  stroke: "#61b0ba"
+});
+
+var _ref172 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M612 281l-40 124 112-57z",
+  fill: "#57a8ba",
+  stroke: "#57a8ba"
+});
+
+var _ref173 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M684 348l-112 57 124 7z",
+  fill: "#4c9eba",
+  stroke: "#4c9eba"
+});
+
+var _ref174 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M684 348l12 64 60 3z",
+  fill: "#4698b9",
+  stroke: "#4698b9"
+});
+
+var _ref175 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M684 348l72 67 36-130z",
+  fill: "#4b9db9",
+  stroke: "#4b9db9"
+});
+
+var _ref176 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M792 285l-36 130 104-43z",
+  fill: "#4597b9",
+  stroke: "#4597b9"
+});
+
+var _ref177 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M792 285l68 87 23-44z",
+  fill: "#4698b9",
+  stroke: "#4698b9"
+});
+
+var _ref178 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M883 328l-23 44 70-27z",
+  fill: "#3f90b9",
+  stroke: "#3f90b9"
+});
+
+var _ref179 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M930 345l-70 27 63 44z",
+  fill: "#388ab9",
+  stroke: "#388ab9"
+});
+
+var _ref180 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M930 345l-7 71 92-41z",
+  fill: "#3385b9",
+  stroke: "#3385b9"
+});
+
+var _ref181 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M930 345l85 30-8-26z",
+  fill: "#3587b9",
+  stroke: "#3587b9"
+});
+
+var _ref182 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1007 349l8 26 75 20z",
+  fill: "#2c7fb8",
+  stroke: "#2c7fb8"
+});
+
+var _ref183 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1145 298l-55 97 110-51z",
+  fill: "#287bb8",
+  stroke: "#287bb8"
+});
+
+var _ref184 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1200 344l-110 51 101 32z",
+  fill: "#1f72b8",
+  stroke: "#1f72b8"
+});
+
+var _ref185 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1200 344l-9 83 118-10z",
+  fill: "#1e6bb8",
+  stroke: "#1e6bb8"
+});
+
+var _ref186 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1200 344l109 73-36-90z",
+  fill: "#246eb8",
+  stroke: "#246eb8"
+});
+
+var _ref187 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1273 327l36 90 58-129z",
+  fill: "#276db7",
+  stroke: "#276db7"
+});
+
+var _ref188 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1367 288l-58 129 104 7z",
+  fill: "#2163b7",
+  stroke: "#2163b7"
+});
+
+var _ref189 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1367 288l46 136 72-98z",
+  fill: "#2763b7",
+  stroke: "#2763b7"
+});
+
+var _ref190 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1485 326l-72 98 54 6z",
+  fill: "#1e58b7",
+  stroke: "#1e58b7"
+});
+
+var _ref191 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1485 326l-18 104 32 57z",
+  fill: "#1a52b6",
+  stroke: "#1a52b6"
+});
+
+var _ref192 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-12 373l-54 113 107-56z",
+  fill: "#8fbdb5",
+  stroke: "#8fbdb5"
+});
+
+var _ref193 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-12 373l53 57 70-30z",
+  fill: "#8ec0b5",
+  stroke: "#8ec0b5"
+});
+
+var _ref194 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M41 430l-107 56 142-20z",
+  fill: "#86b6b5",
+  stroke: "#86b6b5"
+});
+
+var _ref195 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M41 430l35 36 35-66z",
+  fill: "#84b9b6",
+  stroke: "#84b9b6"
+});
+
+var _ref196 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M111 400l-35 66 30 42z",
+  fill: "#7cb3b6",
+  stroke: "#7cb3b6"
+});
+
+var _ref197 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M111 400l-5 108 109-71z",
+  fill: "#79b2b6",
+  stroke: "#79b2b6"
+});
+
+var _ref198 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M215 437l-109 71 103 20z",
+  fill: "#6ca9b6",
+  stroke: "#6ca9b6"
+});
+
+var _ref199 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M215 437l-6 91 77-57z",
+  fill: "#68a9b7",
+  stroke: "#68a9b7"
+});
+
+var _ref200 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M215 437l71 34 28-66z",
+  fill: "#6baeb8",
+  stroke: "#6baeb8"
+});
+
+var _ref201 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M314 405l-28 66 134-8z",
+  fill: "#61aab8",
+  stroke: "#61aab8"
+});
+
+var _ref202 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M314 405l106 58 1-90z",
+  fill: "#62adb9",
+  stroke: "#62adb9"
+});
+
+var _ref203 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M421 373l-1 90 104-55z",
+  fill: "#59aaba",
+  stroke: "#59aaba"
+});
+
+var _ref204 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M524 408l-104 55 84 62z",
+  fill: "#4d9eba",
+  stroke: "#4d9eba"
+});
+
+var _ref205 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M524 408l-20 117 75-29z",
+  fill: "#4698b9",
+  stroke: "#4698b9"
+});
+
+var _ref206 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M524 408l55 88-7-91z",
+  fill: "#4c9db9",
+  stroke: "#4c9db9"
+});
+
+var _ref207 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M572 405l7 91 117-84z",
+  fill: "#4798b9",
+  stroke: "#4798b9"
+});
+
+var _ref208 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M696 412l-117 84 70 29z",
+  fill: "#3c8eb9",
+  stroke: "#3c8eb9"
+});
+
+var _ref209 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M696 412l-47 113 94-61z",
+  fill: "#398cb9",
+  stroke: "#398cb9"
+});
+
+var _ref210 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M696 412l47 52 13-49z",
+  fill: "#3d8fb9",
+  stroke: "#3d8fb9"
+});
+
+var _ref211 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M756 415l-13 49 100 36z",
+  fill: "#3386b9",
+  stroke: "#3386b9"
+});
+
+var _ref212 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M756 415l87 85 17-128z",
+  fill: "#3688b9",
+  stroke: "#3688b9"
+});
+
+var _ref213 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M860 372l-17 128 80-84z",
+  fill: "#3083b8",
+  stroke: "#3083b8"
+});
+
+var _ref214 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M923 416l-80 84 113 1z",
+  fill: "#2579b8",
+  stroke: "#2579b8"
+});
+
+var _ref215 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M923 416l33 85 67-29z",
+  fill: "#2275b8",
+  stroke: "#2275b8"
+});
+
+var _ref216 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M923 416l100 56-8-97z",
+  fill: "#287bb8",
+  stroke: "#287bb8"
+});
+
+var _ref217 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1015 375l8 97 67-77z",
+  fill: "#2477b8",
+  stroke: "#2477b8"
+});
+
+var _ref218 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1090 395l-67 77 76 6z",
+  fill: "#1b6fb8",
+  stroke: "#1b6fb8"
+});
+
+var _ref219 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1090 395l9 83 92-51z",
+  fill: "#196db8",
+  stroke: "#196db8"
+});
+
+var _ref220 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1191 427l-92 51 131 8z",
+  fill: "#1163b7",
+  stroke: "#1163b7"
+});
+
+var _ref221 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1191 427l39 59 79-69z",
+  fill: "#1461b7",
+  stroke: "#1461b7"
+});
+
+var _ref222 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1309 417l-79 69 78 32z",
+  fill: "#0f58b7",
+  stroke: "#0f58b7"
+});
+
+var _ref223 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1309 417l-1 101 105-54z",
+  fill: "#1054b7",
+  stroke: "#1054b7"
+});
+
+var _ref224 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1309 417l104 47v-40z",
+  fill: "#1657b7",
+  stroke: "#1657b7"
+});
+
+var _ref225 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1413 424v40l54-34z",
+  fill: "#1552b7",
+  stroke: "#1552b7"
+});
+
+var _ref226 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1467 430l-54 34 86 23z",
+  fill: "#114cb6",
+  stroke: "#114cb6"
+});
+
+var _ref227 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-66 486v208l45-124z",
+  fill: "#7da3b3",
+  stroke: "#7da3b3"
+});
+
+var _ref228 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-66 486l45 84 97-104z",
+  fill: "#7fafb4",
+  stroke: "#7fafb4"
+});
+
+var _ref229 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M76 466l-97 104 127-62z",
+  fill: "#77abb5",
+  stroke: "#77abb5"
+});
+
+var _ref230 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M106 508l-127 62 33 34z",
+  fill: "#73a3b4",
+  stroke: "#73a3b4"
+});
+
+var _ref231 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M106 508l-94 96 114-46z",
+  fill: "#6da2b5",
+  stroke: "#6da2b5"
+});
+
+var _ref232 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M106 508l20 50 83-30z",
+  fill: "#68a3b6",
+  stroke: "#68a3b6"
+});
+
+var _ref233 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M209 528l-83 30 68 45z",
+  fill: "#619cb6",
+  stroke: "#619cb6"
+});
+
+var _ref234 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M209 528l-15 75 93-30z",
+  fill: "#5b99b6",
+  stroke: "#5b99b6"
+});
+
+var _ref235 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M209 528l78 45-1-102z",
+  fill: "#5c9fb7",
+  stroke: "#5c9fb7"
+});
+
+var _ref236 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M286 471l1 102 83-15z",
+  fill: "#549bb8",
+  stroke: "#549bb8"
+});
+
+var _ref237 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M286 471l84 87 50-95z",
+  fill: "#559fb8",
+  stroke: "#559fb8"
+});
+
+var _ref238 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M420 463l-50 95 104 8z",
+  fill: "#4897b9",
+  stroke: "#4897b9"
+});
+
+var _ref239 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M420 463l54 103 30-41z",
+  fill: "#4596b9",
+  stroke: "#4596b9"
+});
+
+var _ref240 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M504 525l-30 41 144 27z",
+  fill: "#3989b8",
+  stroke: "#3989b8"
+});
+
+var _ref241 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M504 525l114 68-39-97z",
+  fill: "#388ab9",
+  stroke: "#388ab9"
+});
+
+var _ref242 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M579 496l39 97 31-68z",
+  fill: "#3386b9",
+  stroke: "#3386b9"
+});
+
+var _ref243 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M649 525l-31 68 87 20z",
+  fill: "#2d7bb8",
+  stroke: "#2d7bb8"
+});
+
+var _ref244 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M649 525l56 88 89-60z",
+  fill: "#2878b8",
+  stroke: "#2878b8"
+});
+
+var _ref245 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M649 525l145 28-51-89z",
+  fill: "#2d80b8",
+  stroke: "#2d80b8"
+});
+
+var _ref246 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M743 464l51 89 49-53z",
+  fill: "#297cb8",
+  stroke: "#297cb8"
+});
+
+var _ref247 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M843 500l-49 53 41 35z",
+  fill: "#1f72b8",
+  stroke: "#1f72b8"
+});
+
+var _ref248 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M843 500l-8 88 80-18z",
+  fill: "#1a6eb7",
+  stroke: "#1a6eb7"
+});
+
+var _ref249 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M843 500l72 70 41-69z",
+  fill: "#1c70b8",
+  stroke: "#1c70b8"
+});
+
+var _ref250 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M956 501l-41 69 89 30z",
+  fill: "#1265b7",
+  stroke: "#1265b7"
+});
+
+var _ref251 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M956 501l48 99 19-128z",
+  fill: "#1368b7",
+  stroke: "#1368b7"
+});
+
+var _ref252 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1023 472l-19 128 95-122z",
+  fill: "#1065b7",
+  stroke: "#1065b7"
+});
+
+var _ref253 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1099 478l-95 122 135 4z",
+  fill: "#075ab7",
+  stroke: "#075ab7"
+});
+
+var _ref254 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1099 478l40 126 67-20z",
+  fill: "#0155b6",
+  stroke: "#0155b6"
+});
+
+var _ref255 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1099 478l107 106 24-98z",
+  fill: "#075ab7",
+  stroke: "#075ab7"
+});
+
+var _ref256 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1230 486l-24 98 83 1z",
+  fill: "#004eb6",
+  stroke: "#004eb6"
+});
+
+var _ref257 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1230 486l59 99 19-67z",
+  fill: "#044fb7",
+  stroke: "#044fb7"
+});
+
+var _ref258 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1308 518l-19 67 98-13z",
+  fill: "#0045b6",
+  stroke: "#0045b6"
+});
+
+var _ref259 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1308 518l79 54 26-108z",
+  fill: "#0649b6",
+  stroke: "#0649b6"
+});
+
+var _ref260 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1413 464l-26 108 112-85z",
+  fill: "#0846b6",
+  stroke: "#0846b6"
+});
+
+var _ref261 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1499 487l-112 85 124-15z",
+  fill: "#023db6",
+  stroke: "#023db6"
+});
+
+var _ref262 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-21 570l-45 124 78-90z",
+  fill: "#7a9bb3",
+  stroke: "#7a9bb3"
+});
+
+var _ref263 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M12 604l-78 90 132 14z",
+  fill: "#7692b3",
+  stroke: "#7692b3"
+});
+
+var _ref264 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M12 604l54 104 77-52z",
+  fill: "#6e90b4",
+  stroke: "#6e90b4"
+});
+
+var _ref265 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M12 604l131 52-17-98z",
+  fill: "#6b98b5",
+  stroke: "#6b98b5"
+});
+
+var _ref266 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M126 558l17 98 51-53z",
+  fill: "#6495b5",
+  stroke: "#6495b5"
+});
+
+var _ref267 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M194 603l-51 53 71 8z",
+  fill: "#618eb5",
+  stroke: "#618eb5"
+});
+
+var _ref268 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M194 603l20 61 73-91z",
+  fill: "#5b91b6",
+  stroke: "#5b91b6"
+});
+
+var _ref269 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M287 573l-73 91 130 3z",
+  fill: "#558ab6",
+  stroke: "#558ab6"
+});
+
+var _ref270 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M287 573l57 94 26-109z",
+  fill: "#4e8eb7",
+  stroke: "#4e8eb7"
+});
+
+var _ref271 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M370 558l-26 109 70-22z",
+  fill: "#4988b7",
+  stroke: "#4988b7"
+});
+
+var _ref272 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M370 558l44 87 60-79z",
+  fill: "#448cb8",
+  stroke: "#448cb8"
+});
+
+var _ref273 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M474 566l-60 79 84 49z",
+  fill: "#3f82b8",
+  stroke: "#3f82b8"
+});
+
+var _ref274 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M474 566l24 128 94-34z",
+  fill: "#3a7cb8",
+  stroke: "#3a7cb8"
+});
+
+var _ref275 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M474 566l118 94 26-67z",
+  fill: "#367eb8",
+  stroke: "#367eb8"
+});
+
+var _ref276 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M618 593l-26 67 111 13z",
+  fill: "#2f71b8",
+  stroke: "#2f71b8"
+});
+
+var _ref277 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M618 593l85 80 2-60z",
+  fill: "#2c71b8",
+  stroke: "#2c71b8"
+});
+
+var _ref278 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M705 613l-2 60 29 11z",
+  fill: "#2868b7",
+  stroke: "#2868b7"
+});
+
+var _ref279 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M705 613l27 71 103-96z",
+  fill: "#2469b7",
+  stroke: "#2469b7"
+});
+
+var _ref280 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M705 613l130-25-41-35z",
+  fill: "#2270b8",
+  stroke: "#2270b8"
+});
+
+var _ref281 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M835 588l-103 96 108-7z",
+  fill: "#2062b7",
+  stroke: "#2062b7"
+});
+
+var _ref282 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M835 588l5 89 101-34z",
+  fill: "#1a5eb7",
+  stroke: "#1a5eb7"
+});
+
+var _ref283 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M835 588l106 55-26-73z",
+  fill: "#1762b7",
+  stroke: "#1762b7"
+});
+
+var _ref284 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M915 570l26 73 63-43z",
+  fill: "#125db7",
+  stroke: "#125db7"
+});
+
+var _ref285 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1004 600l-63 43 105 54z",
+  fill: "#0e52b6",
+  stroke: "#0e52b6"
+});
+
+var _ref286 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1004 600l42 97 45-12z",
+  fill: "#0a4bb6",
+  stroke: "#0a4bb6"
+});
+
+var _ref287 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1004 600l87 85 48-81z",
+  fill: "#074eb6",
+  stroke: "#074eb6"
+});
+
+var _ref288 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1139 604l-48 81 101 62z",
+  fill: "#0140b6",
+  stroke: "#0140b6"
+});
+
+var _ref289 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1139 604l53 143 57-105z",
+  fill: "#003eb6",
+  stroke: "#003eb6"
+});
+
+var _ref290 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1139 604l110 38-43-58z",
+  fill: "#0047b6",
+  stroke: "#0047b6"
+});
+
+var _ref291 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1206 584l43 58 40-57z",
+  fill: "#0044b6",
+  stroke: "#0044b6"
+});
+
+var _ref292 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1289 585l-40 57 77 15z",
+  fill: "#003cb6",
+  stroke: "#003cb6"
+});
+
+var _ref293 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1289 585l37 72 61-85z",
+  fill: "#003cb6",
+  stroke: "#003cb6"
+});
+
+var _ref294 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1387 572l-61 85 56 28z",
+  fill: "#0034b5",
+  stroke: "#0034b5"
+});
+
+var _ref295 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1387 572l-5 113 73-45z",
+  fill: "#0031b5",
+  stroke: "#0031b5"
+});
+
+var _ref296 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1387 572l68 68 56-83z",
+  fill: "#0035b5",
+  stroke: "#0035b5"
+});
+
+var _ref297 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1511 557l-56 83-3 141z",
+  fill: "#0027b5",
+  stroke: "#0027b5"
+});
+
+var _ref298 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M-66 694l12 63 120-49z",
+  fill: "#7989b3",
+  stroke: "#7989b3"
+});
+
+var _ref299 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M66 708l-120 49 133 37z",
+  fill: "#7381b3",
+  stroke: "#7381b3"
+});
+
+var _ref300 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M66 708l13 86 41-42z",
+  fill: "#6c7fb4",
+  stroke: "#6c7fb4"
+});
+
+var _ref301 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M66 708l54 44 23-96z",
+  fill: "#6a86b4",
+  stroke: "#6a86b4"
+});
+
+var _ref302 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M143 656l-23 96 84 5z",
+  fill: "#6481b4",
+  stroke: "#6481b4"
+});
+
+var _ref303 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M143 656l61 101 10-93z",
+  fill: "#6084b5",
+  stroke: "#6084b5"
+});
+
+var _ref304 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M214 664l-10 93 140-90z",
+  fill: "#5881b6",
+  stroke: "#5881b6"
+});
+
+var _ref305 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M344 667l-140 90 130 24z",
+  fill: "#5378b6",
+  stroke: "#5378b6"
+});
+
+var _ref306 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M344 667l-10 114 66 15z",
+  fill: "#4b72b7",
+  stroke: "#4b72b7"
+});
+
+var _ref307 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M344 667l56 129 14-151z",
+  fill: "#4879b7",
+  stroke: "#4879b7"
+});
+
+var _ref308 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M414 645l-14 151 98-102z",
+  fill: "#4275b8",
+  stroke: "#4275b8"
+});
+
+var _ref309 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M498 694l-98 102 90-26z",
+  fill: "#3f6cb8",
+  stroke: "#3f6cb8"
+});
+
+var _ref310 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M498 694l-8 76 89-38z",
+  fill: "#3a6bb8",
+  stroke: "#3a6bb8"
+});
+
+var _ref311 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M498 694l81 38 13-72z",
+  fill: "#376fb7",
+  stroke: "#376fb7"
+});
+
+var _ref312 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M592 660l-13 72 124-59z",
+  fill: "#306ab7",
+  stroke: "#306ab7"
+});
+
+var _ref313 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M703 673l-124 59 109 51z",
+  fill: "#2d60b7",
+  stroke: "#2d60b7"
+});
+
+var _ref314 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M703 673l-15 110 44-99z",
+  fill: "#295fb7",
+  stroke: "#295fb7"
+});
+
+var _ref315 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M732 684l-44 99 92-28z",
+  fill: "#2657b7",
+  stroke: "#2657b7"
+});
+
+var _ref316 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M732 684l48 71 60-78z",
+  fill: "#2259b7",
+  stroke: "#2259b7"
+});
+
+var _ref317 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M840 677l-60 78 95 9z",
+  fill: "#1d51b7",
+  stroke: "#1d51b7"
+});
+
+var _ref318 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M840 677l35 87 53-6z",
+  fill: "#194cb6",
+  stroke: "#194cb6"
+});
+
+var _ref319 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M840 677l88 81 13-115z",
+  fill: "#1751b6",
+  stroke: "#1751b6"
+});
+
+var _ref320 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M941 643l-13 115 118-61z",
+  fill: "#114bb6",
+  stroke: "#114bb6"
+});
+
+var _ref321 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1046 697l-118 61 135 40z",
+  fill: "#0d3eb6",
+  stroke: "#0d3eb6"
+});
+
+var _ref322 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1046 697l17 101 41-46z",
+  fill: "#0839b6",
+  stroke: "#0839b6"
+});
+
+var _ref323 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1046 697l58 55-13-67z",
+  fill: "#073fb6",
+  stroke: "#073fb6"
+});
+
+var _ref324 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1091 685l13 67 88-5z",
+  fill: "#0238b6",
+  stroke: "#0238b6"
+});
+
+var _ref325 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1249 642l-57 105 91 20z",
+  fill: "#0030b5",
+  stroke: "#0030b5"
+});
+
+var _ref326 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1249 642l34 125 43-110z",
+  fill: "#0031b5",
+  stroke: "#0031b5"
+});
+
+var _ref327 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1326 657l-43 110 99-82z",
+  fill: "#002bb5",
+  stroke: "#002bb5"
+});
+
+var _ref328 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1382 685l-99 82 139 7z",
+  fill: "#0021b5",
+  stroke: "#0021b5"
+});
+
+var _ref329 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1382 685l40 89 33-134z",
+  fill: "#0024b5",
+  stroke: "#0024b5"
+});
+
+var _ref330 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1455 640l-33 134 30 7z",
+  fill: "#001cb4",
+  stroke: "#001cb4"
+});
+
+var _ref331 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M79 794l321 2-66-15z",
+  fill: "#566fb5",
+  stroke: "#566fb5"
+});
+
+var _ref332 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M79 794l255-13-130-24z",
+  fill: "#5e75b5",
+  stroke: "#5e75b5"
+});
+
+var _ref333 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M79 794l125-37-84-5z",
+  fill: "#6779b4",
+  stroke: "#6779b4"
+});
+
+var _ref334 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M400 796l663 2-375-15z",
+  fill: "#2850b6",
+  stroke: "#2850b6"
+});
+
+var _ref335 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M400 796l288-13-198-13z",
+  fill: "#3962b7",
+  stroke: "#3962b7"
+});
+
+var _ref336 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M490 770l198 13-109-51z",
+  fill: "#3460b7",
+  stroke: "#3460b7"
+});
+
+var _ref337 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M688 783l375 15-188-34z",
+  fill: "#1944b6",
+  stroke: "#1944b6"
+});
+
+var _ref338 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M688 783l187-19-95-9z",
+  fill: "#224eb6",
+  stroke: "#224eb6"
+});
+
+var _ref339 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M875 764l188 34-135-40z",
+  fill: "#123eb6",
+  stroke: "#123eb6"
+});
+
+var _ref340 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1063 798l389-17-169-14z",
+  fill: "#0022b5",
+  stroke: "#0022b5"
+});
+
+var _ref341 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1063 798l220-31-91-20z",
+  fill: "#002cb5",
+  stroke: "#002cb5"
+});
+
+var _ref342 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1063 798l129-51-88 5z",
+  fill: "#0332b5",
+  stroke: "#0332b5"
+});
+
+var _ref343 =
+/*#__PURE__*/
+React.createElement("path", {
+  d: "M1283 767l169 14-30-7z",
+  fill: "#001ab4",
+  stroke: "#001ab4"
+});
+
+var SvgBackground = function SvgBackground(props) {
+  return React.createElement("svg", _extends({
+    width: 1366,
+    height: 651
+  }, props), _ref, _ref2, _ref3, _ref4, _ref5, _ref6, _ref7, _ref8, _ref9, _ref10, _ref11, _ref12, _ref13, _ref14, _ref15, _ref16, _ref17, _ref18, _ref19, _ref20, _ref21, _ref22, _ref23, _ref24, _ref25, _ref26, _ref27, _ref28, _ref29, _ref30, _ref31, _ref32, _ref33, _ref34, _ref35, _ref36, _ref37, _ref38, _ref39, _ref40, _ref41, _ref42, _ref43, _ref44, _ref45, _ref46, _ref47, _ref48, _ref49, _ref50, _ref51, _ref52, _ref53, _ref54, _ref55, _ref56, _ref57, _ref58, _ref59, _ref60, _ref61, _ref62, _ref63, _ref64, _ref65, _ref66, _ref67, _ref68, _ref69, _ref70, _ref71, _ref72, _ref73, _ref74, _ref75, _ref76, _ref77, _ref78, _ref79, _ref80, _ref81, _ref82, _ref83, _ref84, _ref85, _ref86, _ref87, _ref88, _ref89, _ref90, _ref91, _ref92, _ref93, _ref94, _ref95, _ref96, _ref97, _ref98, _ref99, _ref100, _ref101, _ref102, _ref103, _ref104, _ref105, _ref106, _ref107, _ref108, _ref109, _ref110, _ref111, _ref112, _ref113, _ref114, _ref115, _ref116, _ref117, _ref118, _ref119, _ref120, _ref121, _ref122, _ref123, _ref124, _ref125, _ref126, _ref127, _ref128, _ref129, _ref130, _ref131, _ref132, _ref133, _ref134, _ref135, _ref136, _ref137, _ref138, _ref139, _ref140, _ref141, _ref142, _ref143, _ref144, _ref145, _ref146, _ref147, _ref148, _ref149, _ref150, _ref151, _ref152, _ref153, _ref154, _ref155, _ref156, _ref157, _ref158, _ref159, _ref160, _ref161, _ref162, _ref163, _ref164, _ref165, _ref166, _ref167, _ref168, _ref169, _ref170, _ref171, _ref172, _ref173, _ref174, _ref175, _ref176, _ref177, _ref178, _ref179, _ref180, _ref181, _ref182, _ref183, _ref184, _ref185, _ref186, _ref187, _ref188, _ref189, _ref190, _ref191, _ref192, _ref193, _ref194, _ref195, _ref196, _ref197, _ref198, _ref199, _ref200, _ref201, _ref202, _ref203, _ref204, _ref205, _ref206, _ref207, _ref208, _ref209, _ref210, _ref211, _ref212, _ref213, _ref214, _ref215, _ref216, _ref217, _ref218, _ref219, _ref220, _ref221, _ref222, _ref223, _ref224, _ref225, _ref226, _ref227, _ref228, _ref229, _ref230, _ref231, _ref232, _ref233, _ref234, _ref235, _ref236, _ref237, _ref238, _ref239, _ref240, _ref241, _ref242, _ref243, _ref244, _ref245, _ref246, _ref247, _ref248, _ref249, _ref250, _ref251, _ref252, _ref253, _ref254, _ref255, _ref256, _ref257, _ref258, _ref259, _ref260, _ref261, _ref262, _ref263, _ref264, _ref265, _ref266, _ref267, _ref268, _ref269, _ref270, _ref271, _ref272, _ref273, _ref274, _ref275, _ref276, _ref277, _ref278, _ref279, _ref280, _ref281, _ref282, _ref283, _ref284, _ref285, _ref286, _ref287, _ref288, _ref289, _ref290, _ref291, _ref292, _ref293, _ref294, _ref295, _ref296, _ref297, _ref298, _ref299, _ref300, _ref301, _ref302, _ref303, _ref304, _ref305, _ref306, _ref307, _ref308, _ref309, _ref310, _ref311, _ref312, _ref313, _ref314, _ref315, _ref316, _ref317, _ref318, _ref319, _ref320, _ref321, _ref322, _ref323, _ref324, _ref325, _ref326, _ref327, _ref328, _ref329, _ref330, _ref331, _ref332, _ref333, _ref334, _ref335, _ref336, _ref337, _ref338, _ref339, _ref340, _ref341, _ref342, _ref343);
+};
+
+export default SvgBackground;
