@@ -28,7 +28,7 @@ class App extends Component {
         var lista = this.state.categorias;
         var cont = 0;
         lista.forEach(item => {
-            list.push(<Card key={cont} title={item.title} image={item.imege} type="menu"/>);
+            list.push(<Card key={cont} title={item.title} image={item.image} type="menu"/>);
             cont++;
         });
         switch (index) {

@@ -65,6 +65,13 @@ $breakpoint-med: 1360px;
     padding: 5%;
     float: none;
   }
+
+  .logoIconCard{
+    height: 100%;
+    width: 100%;
+    padding-top: 15%;
+    text-align: center;
+  }
   
   @include screen(med-small) {
     height: 40%;
