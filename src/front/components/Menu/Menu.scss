@@ -55,32 +55,32 @@ $breakpoint-med: 1360px;
 }
 
 .menu {
-    $circle: 5rem;
+  padding: 10px;
+  $circle: 7rem;
+  height: $circle;
+  width: $circle;
+  @include screen(med) {
     height: $circle;
     width: $circle;
-    @include screen(med) {
-      height: $circle;
-      width: $circle;
-    }
-    @include screen(med-small) {
-      height: $circle;
-      width: $circle;
-    }
-    @include screen(small) {
-      height: $circle;
-      width: $circle;
-    }
   }
-  
-  .content-menu {
-    background-color: rgb(251, 253, 255);
-    border-radius: 50%;
-    height: 100%;
-    width: 100%;
-    transition: all 1s;
-    
-    @include material-shadow(3);
-    &:hover {
-        background-color:#00c4ff;
-      }
+  @include screen(med-small) {
+    height: $circle;
+    width: $circle;
   }
+  @include screen(small) {
+    height: $circle;
+    width: $circle;
+  }
+}
+
+.content-menu {
+  background-color: rgb(251, 253, 255);
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  @include material-shadow(3);
+  &:hover {
+    background-color: #00c4ff;
+  }
+}

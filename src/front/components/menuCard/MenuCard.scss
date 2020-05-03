@@ -55,33 +55,11 @@ $breakpoint-med: 1360px;
 }
 
 .card-menu {
-  height: 85%;
-  width: 85%;
-  padding: 2%;
-  z-index: -1;
-  padding-top: 3%;
-  padding-left: 9%;
+  height: 90%;
+  width: 90%;
   position: fixed;
-  float: left;
-  overflow:auto;
-  @include screen(med) {
-    height: 50%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
-  @include screen(med-small) {
-    height: 40%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
-  @include screen(small) {
-    height: 30%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
+  z-index: -1;
+  overflow: auto;
 }
 
 .card-in-menu {
@@ -93,20 +71,7 @@ $breakpoint-med: 1360px;
 }
 
 .coverImage {
-  float: right;
   position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 85%;
-  height: 85%;
-  padding-left: 25.6%;
 }
 
-.logo {
-  width: 100%;
-  float: right !important;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/src/img/fondo2.png);
-}
+

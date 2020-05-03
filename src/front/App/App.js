@@ -13,27 +13,22 @@ class App extends Component {
         super(props)
         this.handler = this.handler.bind(this);
         this.listaMenu = constantes.menuItems.map(item => <Menu key={item.index} handler={(item) => this.handler(item)} index={item.index} />);
-        this.state = {
-            actualTab: "",
-            tarjetas: [],
-            categorias:[]
-        };
-        callServices.consultarTarjetas(this.state);
-        callServices.consultarCategorias(this.state);
-        this.state.actualTab = this.getMenuActual(0);
+        this.state = { actualTab: "", categorias: [] };
+        callServices.consultarCategorias().then(response => {
+            this.state.categorias = response.data;
+            this.state.actualTab = this.getMenuActual(0);
+        });
     }
 
     getMenuActual(index) {
-        var list = [];
-        var lista = this.state.categorias;
         var cont = 0;
-        lista.forEach(item => {
-            list.push(<Card key={cont} title={item.title} image={item.image} type="menu"/>);
+        var list = this.state.categorias.map(item => {
             cont++;
+            return <Card key={cont} title={item.title} image={item.image} type="menu" />;
         });
         switch (index) {
-            case 0: return <Card />
-            case 1: return list
+            case 0: return list
+            case 1: return "item menu"
             case 2: return "item menu 2"
             case 3: return "item menu 3"
         }
@@ -49,12 +44,14 @@ class App extends Component {
             <div>
                 <BackGround />
                 <div className="titan">
-                    <MenuCard />
                     <div className="menus2">
                         {this.listaMenu}
                     </div>
-                    <div className="cards">
-                        {this.state.actualTab}
+                    <div className="cardMenu d-flex justify-content-center">
+                        <MenuCard />
+                        <div className="cards">
+                            {this.state.actualTab}
+                        </div>
                     </div>
                 </div>
             </div>

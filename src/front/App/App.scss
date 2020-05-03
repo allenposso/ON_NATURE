@@ -131,14 +131,17 @@ body {
 }
 
 .menus2 {
-  height: 90%;
-  width: 13%;
-  padding-left: 7.5%;
-  padding-top: 8%;
   z-index: 1;
   position: fixed;
   float: left;
+  padding-left: 5%;
+  padding-top: 7%;
+  list-style: none;
   @include on-menu($item-count: 4, $item-size: 5rem);
+}
+
+.cardMenu{
+ padding-top: 2.4%;
 }
 
 .imag {

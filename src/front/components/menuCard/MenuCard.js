@@ -5,9 +5,7 @@ class MenuCard extends Component {
     render() {
         return (
             <div className="card-menu">
-                <div className="coverImage">
-                    <div className="logo"></div>
-                </div>
+                <img src="/src/img/fondo2.png" height="100%" className="float-right"></img>
                 <div className="card-in-menu"></div>
             </div>
         );
