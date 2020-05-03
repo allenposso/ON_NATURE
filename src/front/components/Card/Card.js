@@ -5,6 +5,9 @@ class Card extends Component {
         return (
             <div className="card">
                 <div className="content-card">
+                    <div className="logoIconCard">
+                       <img src={this.props.image} id={this.props.title} height="80%" width="80%"></img>
+                    </div>
                      {this.props.title}
                 </div>
             </div>
