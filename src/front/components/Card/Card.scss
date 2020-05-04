@@ -1,37 +1,3 @@
-$breakpoint-small: 600px;
-$breakpoint-med-small: 960px;
-$breakpoint-med: 1360px;
-
-@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
-  @if $size == "small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-small) {
-      @content;
-    }
-  } @else if $size == "med-small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med-small) {
-      @content;
-    }
-  } @else if $size == "med" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "large" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "custom" {
-    $invid: $type + -width;
-    @media screen and ($invid: $pixels + px) {
-      @content;
-    }
-  } @else {
-    @content;
-  }
-}
 
 @mixin material-shadow($z-depth: 1, $strength: 1, $color: black) {
   @if $z-depth == 1 {
@@ -54,37 +20,18 @@ $breakpoint-med: 1360px;
   }
 }
 
-.card {
-  height: 35%;
+.card-fox {
+  height: 40%;
   width: 20%;
   padding: 2%;
   float: left;
-  @include screen(med) {
-    height: 50%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
+}
 
-  .logoIconCard{
-    height: 100%;
-    width: 100%;
-    padding-top: 15%;
-    text-align: center;
-  }
-  
-  @include screen(med-small) {
-    height: 40%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
-  @include screen(small) {
-    height: 30%;
-    width: 90%;
-    padding: 5%;
-    float: none;
-  }
+.logoIconCard {
+  height: 100%;
+  width: 100%;
+  padding-top: 15%;
+  text-align: center;
 }
 
 .content-card {

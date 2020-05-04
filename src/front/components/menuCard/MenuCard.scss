@@ -1,35 +1,12 @@
-$breakpoint-small: 600px;
-$breakpoint-med-small: 960px;
-$breakpoint-med: 1360px;
-
-@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
-  @if $size == "small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-small) {
-      @content;
-    }
-  } @else if $size == "med-small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med-small) {
-      @content;
-    }
-  } @else if $size == "med" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "large" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "custom" {
-    $invid: $type + -width;
-    @media screen and ($invid: $pixels + px) {
-      @content;
-    }
-  } @else {
-    @content;
+@mixin on-menu($item-count, $item-size) {
+  border-radius: 50%;
+  list-style: none;
+  > * {
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: $item-size;
+    height: $item-size;
   }
 }
 
@@ -58,8 +35,23 @@ $breakpoint-med: 1360px;
   height: 90%;
   width: 90%;
   position: fixed;
-  z-index: -1;
   overflow: auto;
+}
+
+.menus {
+  padding: 3%;
+  height: 100%;
+  float: left;
+  width: 14%;
+  @include on-menu($item-count: 4, $item-size: 6rem);
+}
+
+.cardContainer {
+  float: left;
+  margin-left: 14%;
+  height: 90%;
+  position: fixed;
+  width: 80%;
 }
 
 .card-in-menu {
@@ -74,4 +66,11 @@ $breakpoint-med: 1360px;
   position: fixed;
 }
 
-
+.cards {
+  padding: 2%;
+  height: 90%;
+  width: 76%;
+  float: left;
+  position: fixed;
+  flex-direction: row;
+}

@@ -1,37 +1,3 @@
-$breakpoint-small: 600px;
-$breakpoint-med-small: 960px;
-$breakpoint-med: 1360px;
-
-@mixin screen($size, $type: max, $pixels: $breakpoint-small) {
-  @if $size == "small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-small) {
-      @content;
-    }
-  } @else if $size == "med-small" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med-small) {
-      @content;
-    }
-  } @else if $size == "med" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "large" {
-    $invid: $type + -width;
-    @media screen and ($invid: $breakpoint-med) {
-      @content;
-    }
-  } @else if $size == "custom" {
-    $invid: $type + -width;
-    @media screen and ($invid: $pixels + px) {
-      @content;
-    }
-  } @else {
-    @content;
-  }
-}
 
 @mixin material-shadow($z-depth: 1, $strength: 1, $color: black) {
   @if $z-depth == 1 {
@@ -56,21 +22,6 @@ $breakpoint-med: 1360px;
 
 .menu {
   padding: 10px;
-  $circle: 7rem;
-  height: $circle;
-  width: $circle;
-  @include screen(med) {
-    height: $circle;
-    width: $circle;
-  }
-  @include screen(med-small) {
-    height: $circle;
-    width: $circle;
-  }
-  @include screen(small) {
-    height: $circle;
-    width: $circle;
-  }
 }
 
 .content-menu {
