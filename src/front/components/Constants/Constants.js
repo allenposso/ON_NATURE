@@ -23,6 +23,12 @@ var objetos = {
             logo: "",
             activo : false,
             index: 3
+        },
+        {
+            nombre: "Almuadilla",
+            logo: "",
+            activo : false,
+            index: 4
         }
     ]
 }
