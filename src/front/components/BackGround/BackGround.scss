@@ -1,73 +1,21 @@
-.svg-container {
+.background-container {
   border: 0;
   padding: 0;
   width: 100% !important;
   height: 100% !important;
   position: fixed;
   z-index: -100;
-  background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(to right bottom, #00fac9, #00d6e3, #00aee8, #0083d2, #5856a2);
+  background-image: linear-gradient(to right, #0b0574, #18258f, #233fab, #2f5ac5, #3d75e0);
 }
 
-.coverImage-back {
-  float: right;
+.home-container {
+  border: 0;
+  padding: 0;
+  width: 35% !important;
+  height: 100% !important;
   position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 25%;
-  padding-top: 36%;
-  padding-left: 88.6%;
-}
-
-.coverImage-back_one {
-  float: right;
-  position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 25%;
-  padding-top: 36%;
-  padding-left: 23.6%;
-}
-
-.coverImage-back_two {
-  float: right;
-  position: fixed;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 25%;
-  height: 25%;
-  padding-top: 0%;
-  padding-left: 0%;
-}
-
-.logo-back_one {
-  width: 100%;
-  float: right !important;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/src/img/back_bone_1.png);
-}
-
-.logo-back_two {
-  width: 100%;
-  float: right !important;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/src/img/back_bone_2.png);
-}
-
-.logo-back_three {
-  width: 100%;
-  float: right !important;
-  height: 100%;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(/src/img/back_bone_3.png);
+  z-index: -99;
+  background-color:#ffffff
 }
