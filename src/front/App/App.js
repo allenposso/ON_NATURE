@@ -10,7 +10,7 @@ class App extends Component {
             <div>
                 <BackGround />
                 <div className="titan">
-                    <div className="cardMenu d-flex justify-content-center">
+                    <div className="d-flex justify-content-center">
                         <MenuCard />
                     </div>
                 </div>

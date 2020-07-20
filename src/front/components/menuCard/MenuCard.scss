@@ -51,10 +51,10 @@
 
 .cardContainer {
   float: left;
-  margin-left: 30%;
-  height: 90%;
+  margin-left: 35%;
+  height: 100%;
   position: fixed;
-  width: 80%;
+  width: 65%;
 }
 
 .coverImage {
@@ -63,12 +63,12 @@
 
 .cards {
   padding: 2%;
-  height: 90%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
   float: left;
-  position: fixed;
   flex-direction: row;
 }
+
 
 .textContainer {
   opacity: 0;
@@ -89,7 +89,7 @@
   animation-delay: 0.5s;
   height: 60px;
   padding-top: 0;
-  margin-top: 0;
+  margin-top: 4%;
   width: 100%;
   padding-left: 5%;
   position: absolute;
@@ -130,11 +130,11 @@ button {
   width: 210px;
   opacity: 1;
   background-color: #ffffff00;
-  border: 1px solid #0B0574;
+  border: 1px solid #0b0574;
 }
 
 span {
-  color: #0B0574;
+  color: #0b0574;
   font-size: 12px;
   font-weight: 500;
   letter-spacing: 0.7px;
