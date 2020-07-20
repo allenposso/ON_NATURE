@@ -71,6 +71,9 @@
 
 
 .textContainer {
+  opacity: 0;
+  animation: opaco 1s forwards;
+  animation-delay: 0.5s;
   position: absolute;
   color: #000000;
   font-size: 150%;
@@ -81,6 +84,9 @@
 }
 
 .logoContainer {
+  opacity: 0;
+  animation: opaco 1s forwards;
+  animation-delay: 0.5s;
   height: 60px;
   padding-top: 0;
   margin-top: 4%;
@@ -99,8 +105,11 @@
 }
 
 .buttonContainer {
+  opacity: 0;
+  animation: opaco 1s forwards;
+  animation-delay: 0.5s;
   position: absolute;
-  padding-top: 95%;
+  padding-top: 100%;
   padding-right: 5%;
   height: 60px;
   width: 100%;
@@ -172,6 +181,17 @@ button:hover {
     transform: translate3d(2px, 0, 0) translateZ(0);
   }
   100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+@keyframes opaco {
+  0% { 
+    opacity: 0; 
+    transform: translate3d(-20px, 0, 0) translateZ(0);
+  }
+  100% { 
+    opacity: 1; 
     transform: translate3d(0, 0, 0) translateZ(0);
   }
 }
