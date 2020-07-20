@@ -4,7 +4,9 @@ import '../BackGround/BackGround.scss';
 class BackGround extends Component {
     render() {
         return (
-            <div className="svg-container">
+            <div className="background-container">
+                <div className = "home-container">
+                </div>
             </div>
         );
     }

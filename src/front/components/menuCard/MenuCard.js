@@ -10,7 +10,6 @@ class MenuCard extends Component {
     constructor(props) {
         super(props)
         this.handler = this.handler.bind(this);
-        this.listaMenu = constantes.menuItems.map(item => <Menu key={item.index} handler={(item) => this.handler(item)} index={item.index} />);
         this.state = { actualTab: "", categorias: [] };
         callServices.consultarCategorias().then(response => {
             this.state.categorias = response.data;
@@ -40,18 +39,28 @@ class MenuCard extends Component {
     render() {
         return (
             <div className="card-menu">
-                <img src="/src/img/fondo2.png" height="100%" className="float-right"></img>
-                <div className="card-in-menu">
-                    <div className="menus">
-                        {this.listaMenu}
+                <div className="homeContainer">
+                    <div className = "logoContainer">
+                        <img src = "/src/img/logo.png" height = "100%" width = "50%"/>
                     </div>
-                    <div className="cardContainer">
-                        <div className="cards">
-                            {this.state.actualTab}
-                        </div>
+                    <div className="textContainer">
+                        ¿Piensas quedarte ahí?
+                        Mejor comprale unas flores a esa persona
+                        que todavia está esperando algo de ti
+                    </div>
+                    <div className="buttonContainer">
+                        <button>
+                            <span>ILUSTRAME</span>
+                        </button>
+                    </div>
+                </div>
+                <div className="cardContainer">
+                    <div className="cards">
+                        {this.state.actualTab}
                     </div>
                 </div>
             </div>
+
         );
     }
 }
