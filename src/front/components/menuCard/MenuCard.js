@@ -50,7 +50,7 @@ class MenuCard extends Component {
                     </div>
                     <div className="buttonContainer">
                         <button>
-                            <span>ILUSTRAME</span>
+                            <span>MIREMOS UN POCO</span>
                         </button>
                     </div>
                 </div>
