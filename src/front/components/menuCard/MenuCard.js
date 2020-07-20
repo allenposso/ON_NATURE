@@ -40,8 +40,8 @@ class MenuCard extends Component {
         return (
             <div className="card-menu">
                 <div className="homeContainer">
-                    <div className = "logoContainer">
-                        <img src = "/src/img/logo.png" height = "100%" width = "50%"/>
+                    <div className="logoContainer">
+                        <img src="/src/img/logo.png" height="100%" width="50%" />
                     </div>
                     <div className="textContainer">
                         ¿Piensas quedarte ahí?
@@ -54,6 +54,7 @@ class MenuCard extends Component {
                         </button>
                     </div>
                 </div>
+                
                 <div className="cardContainer">
                     <div className="cards">
                         {this.state.actualTab}
